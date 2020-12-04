@@ -1,4 +1,4 @@
-var OPS = require('./index.json')
+var OPS = require('./index.js')
 
 var map = {}
 for (var op in OPS) {

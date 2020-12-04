@@ -23,6 +23,13 @@
     "map.js"
   ],
   "main": "./index.js",
+  "exports": {
+    "import": "./index.js",
+    "require": "./index.js",
+    "./map": "./map.js"
+  },
+  "type": "module",
+  "module": "./index.js",
   "scripts": {},
   "devDependencies": {
     "standard": "*"
