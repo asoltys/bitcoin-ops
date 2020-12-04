@@ -1,5 +1,5 @@
 {
-  "name": "bitcoin-ops",
+  "name": "@asoltys/bitcoin-ops",
   "version": "1.4.1",
   "description": "bitcoin OP codes",
   "author": "Daniel Cousens",
