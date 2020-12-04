@@ -1,4 +1,4 @@
-{
+module.exports = {
   "OP_FALSE": 0,
   "OP_0": 0,
   "OP_PUSHDATA1": 76,
