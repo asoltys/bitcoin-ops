@@ -19,10 +19,10 @@
     "bitcoin"
   ],
   "files": [
-    "index.json",
+    "index.js",
     "map.js"
   ],
-  "main": "./index.json",
+  "main": "./index.js",
   "scripts": {},
   "devDependencies": {
     "standard": "*"
