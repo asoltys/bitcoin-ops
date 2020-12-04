@@ -24,12 +24,16 @@
   ],
   "main": "./index.js",
   "exports": {
-    "import": "./index.js",
-    "require": "./index.js",
-    "./map": "./map.js"
+    ".": {
+      "require": "./index.js",
+      "import": "./esm/index.js"
+    },
+    "./map": {
+      "require": "./map.js",
+      "import": "./esm/map.js"
+    }
   },
-  "type": "module",
-  "module": "./index.js",
+  "module": "./wrapper/index.js",
   "scripts": {},
   "devDependencies": {
     "standard": "*"
