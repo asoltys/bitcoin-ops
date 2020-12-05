@@ -23,11 +23,13 @@
     "map.js"
   ],
   "main": "./index.js",
+  "type": "commonjs",
   "exports": {
-    "require": "./index.js",
-    "import": "./esm/index.js"
+    ".": {
+      "require": "./index.js",
+      "import": "./esm/index.js"
+    }
   },
-  "module": "./esm/index.js",
   "scripts": {},
   "devDependencies": {
     "standard": "*"
