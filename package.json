@@ -24,7 +24,7 @@
     "esm/*"
   ],
   "main": "./index.js",
-  "type": "module",
+  "type": "commonjs",
   "exports": {
     ".": {
       "require": "./index.js",
