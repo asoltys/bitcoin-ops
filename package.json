@@ -23,7 +23,7 @@
     "map.js"
   ],
   "main": "./index.js",
-  "type": "commonjs",
+  "type": "module",
   "exports": {
     ".": {
       "require": "./index.js",
