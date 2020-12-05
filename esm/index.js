@@ -1,1 +1,2 @@
-export { default } from "../index.js";
+import OPS from "../index.js";
+export default OPS;

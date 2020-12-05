@@ -1,1 +1,2 @@
-export { default } from "../map.js";
+import map from "../map.js";
+export default map;
