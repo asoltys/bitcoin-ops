@@ -33,7 +33,7 @@
       "import": "./esm/map.js"
     }
   },
-  "module": "./wrapper/index.js",
+  "module": "./esm/index.js",
   "scripts": {},
   "devDependencies": {
     "standard": "*"
