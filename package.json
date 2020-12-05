@@ -24,14 +24,8 @@
   ],
   "main": "./index.js",
   "exports": {
-    ".": {
-      "require": "./index.js",
-      "import": "./esm/index.js"
-    },
-    "./map": {
-      "require": "./map.js",
-      "import": "./esm/map.js"
-    }
+    "require": "./index.js",
+    "import": "./esm/index.js"
   },
   "module": "./esm/index.js",
   "scripts": {},
