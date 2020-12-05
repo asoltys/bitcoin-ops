@@ -20,7 +20,8 @@
   ],
   "files": [
     "index.js",
-    "map.js"
+    "map.js",
+    "esm/*"
   ],
   "main": "./index.js",
   "type": "module",
