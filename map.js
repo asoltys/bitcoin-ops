@@ -1,9 +1,9 @@
-var OPS = require('./index.js')
+var OPS = require("./index.js");
 
-var map = {}
+var map = {};
 for (var op in OPS) {
-  var code = OPS[op]
-  map[code] = op
+  var code = OPS[op];
+  map[code] = op;
 }
 
-module.exports = map
+module.exports = map;

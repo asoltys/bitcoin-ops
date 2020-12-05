@@ -28,7 +28,11 @@
     ".": {
       "require": "./index.js",
       "import": "./esm/index.js"
-    }
+    },
+    "./map": {
+      "require": "./map.js",
+      "import": "./esm/map.js"
+    } 
   },
   "scripts": {},
   "devDependencies": {
